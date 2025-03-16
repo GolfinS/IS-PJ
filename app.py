@@ -21,12 +21,19 @@ with col5:
 
 st.title("Web Application for Machine Learning and Neural Network")
 
-# st.subheader("เว็บแอพพลิเคชันนี้ถูกพัฒนาขึ้นเพื่อทดลองการทำงานของโมเดล Machine Learning และ Neural Network")
-# st.markdown("""
-# - Machine Learning (ML)
-# - Neural Network (NN)
-# """)
-            
-
+st.markdown(
+    """
+    ยินดีต้อนรับสู่เว็บแอปพลิเคชันสำหรับการทดลองและเรียนรู้เกี่ยวกับ Machine Learning (ML) และ Neural Network (NN)  
+    แอปพลิเคชันนี้ถูกออกแบบมาเพื่อให้ผู้ใช้สามารถศึกษาแนวทางการพัฒนาโมเดล AI และทดลองใช้งานโมเดลจริงผ่านระบบอินเทอร์เฟซที่ใช้งานง่าย  
+      
+    **คุณสมบัติของเว็บแอปพลิเคชันนี้**  
+    - อธิบายแนวทางการพัฒนาโมเดล Machine Learning และ Neural Network  
+    - ทดลองใช้งานโมเดล Machine Learning และ Neural Network ผ่านอินพุตที่ผู้ใช้กำหนด  
+    - รองรับโมเดล Machine Learning อย่างน้อย 2 อัลกอริทึม และ Neural Network ที่สามารถทำงานกับข้อมูลที่กำหนด  
+      
+    โปรดเลือกเมนูด้านบนเพื่อเริ่มต้นการใช้งาน  
+    """
+)
 
 st.markdown("---")
+
